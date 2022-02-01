@@ -1,0 +1,44 @@
+{
+  "DocumentConnection": {
+    "type": "DocumentConnection",
+    "resolveType": "multiCollectionDocumentList",
+    "collections": [
+      "page",
+      "bookmarks"
+    ]
+  },
+  "Node": {
+    "type": "Node",
+    "resolveType": "nodeDocument"
+  },
+  "DocumentNode": {
+    "type": "DocumentNode",
+    "resolveType": "multiCollectionDocument",
+    "createDocument": "create",
+    "updateDocument": "update"
+  },
+  "PageDocument": {
+    "type": "PageDocument",
+    "resolveType": "collectionDocument",
+    "collection": "page",
+    "createPageDocument": "create",
+    "updatePageDocument": "update"
+  },
+  "PageConnection": {
+    "type": "PageConnection",
+    "resolveType": "collectionDocumentList",
+    "collection": "page"
+  },
+  "BookmarksDocument": {
+    "type": "BookmarksDocument",
+    "resolveType": "collectionDocument",
+    "collection": "bookmarks",
+    "createBookmarksDocument": "create",
+    "updateBookmarksDocument": "update"
+  },
+  "BookmarksConnection": {
+    "type": "BookmarksConnection",
+    "resolveType": "collectionDocumentList",
+    "collection": "bookmarks"
+  }
+}

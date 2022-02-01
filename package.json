@@ -1,0 +1,24 @@
+{
+  "name": "starter-basic",
+  "private": true,
+  "scripts": {
+    "dev": "yarn tinacms server:start -c \"next dev\"",
+    "build": "yarn tinacms server:start -c \"next build\"",
+    "export": "yarn build && yarn tinacms server:start -c \"next export\"",
+    "start": "yarn tinacms server:start -c \"next start\"",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.0.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-is": "^17.0.2",
+    "styled-components": "^5.1.3",
+    "tinacms": "^0.66.0"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "build-stores-during-ci",
+    "eslint": "7",
+    "eslint-config-next": "12.0.3"
+  }
+}

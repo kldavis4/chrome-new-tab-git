@@ -1,0 +1,9 @@
+fragment PageParts on Page {
+  body
+}
+
+fragment BookmarksParts on Bookmarks {
+  title
+  url
+  keyBinding
+}
